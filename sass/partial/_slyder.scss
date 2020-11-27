@@ -1,0 +1,44 @@
+#slyder {
+  font-family: $primary-font;
+  background-image: url(/img/cover.jpg);
+}
+
+.h1slyder {
+  margin: 18% 6% 0 42%;
+  font-size: 13rem;
+  color: $white;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: inherit;
+}
+
+.pslyder {
+  margin: 0 6% 22% 50%;
+  font-size: 4rem;
+  color: $white;
+  text-align: right;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#one {
+  padding-left: 5.17%;
+  margin-top: 50px;
+
+  a {
+    background-color: $black;
+    color: $white;
+    font-size: 1.875rem;
+    font-weight: bold;
+  }
+}
+
+#two {
+  padding-right: 5.17%;
+  margin-top: 50px;
+  margin-left: 68%;
+
+  p {
+    margin: 0;
+  }
+}
