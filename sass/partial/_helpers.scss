@@ -1,0 +1,27 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.center {
+  text-align: center;
+  align-content: center;
+}
+
+.float {
+  float: left;
+}
+
+.link-general {
+  border: none;
+  border-radius: 1px;
+  padding: 29px 20px 29px 20px;
+  text-align: center;
+  color: $black;
+  font-size: 1.25rem;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+}
