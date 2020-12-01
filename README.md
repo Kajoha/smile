@@ -1,4 +1,4 @@
-# Plantilla de proyectos para el curso de Javascript 2 en el [CETAV](http://parquelalibertad.org/cetav/)
+# Plantilla de proyectos para el [CETAV](http://parquelalibertad.org/cetav/)
 
 ## Requerimientos
 
