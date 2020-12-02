@@ -1,0 +1,38 @@
+#intro {
+  text-align: center;
+  font-family: $primary-font;
+}
+
+.titleOne {
+  margin: 88px 0 0 0;
+  font-size: 3.25rem;
+  font-weight: lighter;
+}
+
+.titleTwo {
+  margin-top: 0;
+  font-size: 3.25rem;
+  font-weight: bold;
+}
+
+.pBold {
+  font-weight: bold;
+  font-size: $size-font-p;
+  margin: 0;
+}
+
+.pLigh{
+  margin-left: 13%;
+  margin-right: 13%;
+  font-size: $size-font-p;
+}
+
+.unique {
+  text-align: justify;
+  margin-top: 65px;
+}
+
+.bottom {
+  margin-bottom: 100px;
+}
+
