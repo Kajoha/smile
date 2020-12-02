@@ -409,3 +409,35 @@ img {
 
 .bottom {
   margin-bottom: 100px; }
+
+#contentQuote {
+  width: 50%;
+  background-color: #ffddd5; }
+  #contentQuote .dot {
+    display: inline-block;
+    margin: 33px 0 43px 10%; }
+  #contentQuote button {
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid #949088;
+    border-radius: 15px; }
+    #contentQuote button:hover {
+      background-color: #949088; }
+  #contentQuote .dot-active {
+    background-color: #949088; }
+
+#textContentQuote {
+  font-family: "Raleway";
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 2.25rem; }
+  #textContentQuote .textQuote {
+    margin: 110px 0 0 0;
+    font-weight: bold; }
+  #textContentQuote .text2 {
+    margin: 40px 0 0 0; }
+
+#imagContentQuote {
+  width: 50%; }

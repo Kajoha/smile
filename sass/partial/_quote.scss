@@ -1,0 +1,47 @@
+#contentQuote {
+  width: 50%;
+  background-color: #ffddd5;
+
+  .dot {
+    display: inline-block;
+    margin: 33px 0 43px 10%;
+  }
+
+  button {
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid $grey;
+    border-radius: 15px;
+
+    &:hover {
+      background-color: $grey;
+    }
+  }
+  .dot-active {
+    background-color: $grey;
+  }
+
+}
+
+#textContentQuote {
+  font-family: $primary-font;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: left;
+  font-size: 2.25rem;
+
+  .textQuote {
+    margin: 110px 0 0 0;
+    font-weight: bold;
+  }
+
+  .text2 {
+    margin: 40px 0 0 0;
+  }
+}
+
+#imagContentQuote {
+  width: 50%;
+}
+
