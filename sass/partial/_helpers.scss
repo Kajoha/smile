@@ -9,8 +9,17 @@
   align-content: center;
 }
 
+.width {
+  width: 50%;
+}
+
 .float {
   float: left;
+}
+
+.margin {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .link-general {
@@ -19,11 +28,21 @@
   padding: 29px 20px 29px 20px;
   text-align: center;
   color: $black;
-  font-size: 1.25rem;
+  font-size: $size-font-p;
   letter-spacing: 6px;
   text-transform: uppercase;
   display: inline-block;
   text-decoration: none;
 }
 
+.button {
+  border: #000000;
+  padding: 29px 20px 29px 20px;
+  color: $black;
+  font-size: $size-font-p;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 42%;
+  margin-bottom: 140px;
+}
 
