@@ -1,5 +1,10 @@
 #reasons {
   font-family: $primary-font;
+
+  h3 {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+  }
 }
 
 .titleReasons {
@@ -8,6 +13,7 @@
 }
 
 .marginR {
+  margin-bottom: 10%;
   margin-left: 15%;
   margin-right: 15%;
 }

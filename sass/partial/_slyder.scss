@@ -1,6 +1,22 @@
 #slyder {
   font-family: $primary-font;
   background-image: url(/img/cover.jpg);
+
+  button {
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background-color: $black;
+
+    &:hover {
+      background-color: $white;
+    }
+  }
+  .active {
+    background-color: $white;
+  }
 }
 
 .h1slyder {
@@ -13,12 +29,11 @@
 }
 
 .pslyder {
-  margin: 0 6% 22% 50%;
+  margin: 0 6% 14% 50%;
   font-size: 4rem;
   color: $white;
   text-align: right;
   font-weight: bold;
-  display: inline-block;
 }
 
 #one {
@@ -41,4 +56,9 @@
   p {
     margin: 0;
   }
+}
+
+#button {
+  margin-left: 45%;
+  margin-bottom: 100px;
 }
