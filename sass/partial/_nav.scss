@@ -1,0 +1,42 @@
+#nav {
+  ul {
+    padding: 0;
+  }
+
+  li {
+    font-family: 'Montserrat';
+    list-style: none;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    font-family: $primary-font;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+  }
+}
+
+#interNav {
+  margin: 110px 0 90px 0;
+}
+
+#browse {
+  width: 20%;
+}
+
+#shop {
+  width: 25%;
+}
+
+#contact {
+  width: 30%;
+}
+
+#subscribe {
+  width: 25%;
+}
