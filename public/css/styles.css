@@ -537,9 +537,18 @@ img {
     font-size: 5rem;
     color: #ffff;
     font-weight: bold; }
+  #five a {
+    color: #ffff;
+    text-decoration: none; }
+    #five a img {
+      width: 25px;
+      height: auto; }
+
+#position {
+  margin-right: 50%; }
 
 #interFive {
-  margin: 170px 10px 47px 10px; }
+  margin: 170px 0px 47px 0px; }
 
 .bF {
   margin: 0 0 5px 0; }
@@ -552,7 +561,7 @@ img {
   margin-top: 100px; }
 
 #interSix {
-  margin: 80px 343px 125px 80px; }
+  margin: 80px 338px 125px 80px; }
 
 .allP {
   font-family: 'Times New Roman', Times, serif;

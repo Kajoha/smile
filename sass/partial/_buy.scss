@@ -17,10 +17,23 @@
     color: $white;
     font-weight: bold;
   }
+
+  a {
+    color: $white;
+    text-decoration: none;
+    img {
+      width: 25px;
+      height: auto;
+    }
+  }
+}
+
+#position {
+  margin-right: 50%;
 }
 
 #interFive {
-  margin: 170px 10px 47px 10px;
+  margin: 170px 0px 47px 0px;
 }
 
 .bF {
@@ -37,7 +50,7 @@
 }
 
 #interSix {
-  margin: 80px 343px 125px 80px;
+  margin: 80px 338px 125px 80px;
 }
 
 .allP {
