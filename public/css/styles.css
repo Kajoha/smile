@@ -601,7 +601,7 @@ img {
   margin: 170px 78px 95px 78px; }
 
 .marginB {
-  margin-left: 42%;
+  margin-left: 40%;
   margin-top: 65px;
   margin-bottom: 140px; }
 
@@ -624,7 +624,8 @@ img {
 #nav li {
   font-family: 'Montserrat';
   list-style: none;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-size: 1rem; }
 
 #nav h4 {
   font-family: "Raleway";
@@ -665,3 +666,84 @@ img {
     margin: 35px 18px 30px 0;
     width: auto;
     height: 25px; }
+
+@media (max-width: 1300px) {
+  #quote {
+    align-content: center; }
+    #quote #contentQuote {
+      float: none;
+      width: 100%; }
+      #quote #contentQuote p {
+        display: inline-block; }
+    #quote #imagContentQuote {
+      float: none;
+      width: 100%; } }
+
+@media (max-width: 1023px) {
+  #slyder .h1slyder {
+    margin: 18% 6% 0 30%;
+    font-size: 8rem;
+    color: #ffff;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: inherit; }
+  #slyder #two {
+    margin-left: 55%; }
+    #slyder #two p {
+      margin: 0; }
+  #reasons #letf {
+    float: none;
+    width: 100%; }
+  #reasons #right {
+    float: none;
+    width: 100%; }
+  #buy {
+    align-content: center; }
+    #buy .marginB {
+      margin-left: 35%;
+      margin-top: 65px;
+      margin-bottom: 120px; }
+    #buy #letfBuy {
+      float: none; }
+      #buy #letfBuy #five {
+        margin: 100px 0 0 0;
+        background-repeat: no-repeat; }
+    #buy #rightBuy {
+      float: none; }
+      #buy #rightBuy #six {
+        margin: 100px 0 0 13%;
+        background-repeat: no-repeat; }
+      #buy #rightBuy #seven {
+        background-repeat: no-repeat; }
+      #buy #rightBuy #eight {
+        background-repeat: no-repeat; }
+  #low #textLow {
+    text-align: center;
+    float: none; }
+  #low #social {
+    float: none; } }
+
+@media (max-width: 767px) {
+  #slyder .h1slyder {
+    margin: 18% 6% 0 30%;
+    font-size: 5rem;
+    color: #ffff;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: inherit; }
+  #slyder #two {
+    margin-left: 40%; }
+  #buy .marginB {
+    margin-left: 30%;
+    margin-top: 65px;
+    margin-bottom: 120px; }
+  #buy #letfBuy #five {
+    margin: 50px 0 0 0; }
+  #buy #rightBuy #six {
+    margin: 50px 0 0 0; }
+  #low #social {
+    margin-left: 22%; }
+  #nav li {
+    font-size: 0.725rem; }
+  #nav p {
+    font-size: 0.725rem; } }

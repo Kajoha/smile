@@ -1,2 +1,101 @@
+@media (max-width: 1300px) {
+
+  #quote {
+    align-content: center;
+
+    #contentQuote {
+      float: none;
+      width: 100%;
+
+      p{
+        display: inline-block;
+      }
+    }
+
+    #imagContentQuote {
+      float: none;
+      width: 100%;
+    }
+  }
+}
+
 @media (max-width: 1023px) {
-     }
+
+  #slyder {
+    .h1slyder {
+      margin: 18% 6% 0 30%;
+      font-size: 8rem;
+      color: $white;
+      text-align: right;
+      text-transform: uppercase;
+      font-weight: inherit;
+    }
+
+    #two {
+      margin-left: 55%;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+  #reasons {
+    #letf {
+      float: none;
+      width: 100%;
+    }
+
+    #right {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  #buy {
+    align-content: center;
+
+    .marginB {
+      margin-left: 35%;
+      margin-top: 65px;
+      margin-bottom: 120px;
+    }
+
+    #letfBuy {
+      float: none;
+
+      #five {
+        margin: 100px 0 0 0;
+        background-repeat: no-repeat;
+      }
+    }
+
+    #rightBuy {
+      float: none;
+
+      #six {
+        margin: 100px 0 0 13%;
+        background-repeat: no-repeat;
+      }
+
+      #seven {
+        background-repeat: no-repeat;
+      }
+
+      #eight {
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  #low {
+    #textLow {
+      text-align: center;
+      float: none;
+    }
+
+    #social {
+      float: none;
+    }
+  }
+}

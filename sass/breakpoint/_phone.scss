@@ -1,2 +1,55 @@
 @media (max-width: 767px) {
+
+  #slyder {
+    .h1slyder {
+      margin: 18% 6% 0 30%;
+      font-size: 5rem;
+      color: $white;
+      text-align: right;
+      text-transform: uppercase;
+      font-weight: inherit;
+    }
+
+    #two {
+      margin-left: 40%;
+    }
+  }
+
+  #buy {
+
+    .marginB {
+      margin-left: 30%;
+      margin-top: 65px;
+      margin-bottom: 120px;
+    }
+
+    #letfBuy {
+      #five {
+        margin: 50px 0 0 0;
+      }
+    }
+
+    #rightBuy {
+      #six {
+        margin: 50px 0 0 0;
+      }
+    }
+  }
+
+  #low {
+    #social {
+      margin-left: 22%;
+    }
+  }
+
+  #nav {
+
+    li {
+      font-size: 0.725rem;
+    }
+
+    p {
+      font-size: 0.725rem;
+    }
+  }
 }
