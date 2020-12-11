@@ -310,11 +310,11 @@ template {
 
 @font-face {
   font-family: 'Tw Cen MT';
-  src: local("Tw Cen MT"), url(TCB_____.TTF) format("Tw Cen MT"); }
+  src: local("Tw Cen MT"), url(/typography/TCB_____.TTF) format("Tw Cen MT"); }
 
 @font-face {
   font-family: 'GreatLakesNF';
-  src: local("GreatLakesNF"), url(GreatLakesNF.TTF) format("GreatLakesNF"); }
+  src: local("GreatLakesNF"), url(/typography/GreatLakesNF.ttf) format("GreatLakesNF"); }
 
 body {
   max-width: 1400px;
@@ -374,6 +374,9 @@ img {
 .display {
   display: inline-block; }
 
+.relative {
+  position: relative; }
+
 #slyder {
   font-family: "Raleway";
   background-image: url(/img/cover.jpg); }
@@ -417,12 +420,53 @@ img {
   padding-right: 5.17%;
   margin-top: 50px;
   margin-left: 68%; }
+  #two button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0); }
   #two p {
-    margin: 0; }
+    margin: 0;
+    color: #ffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    border-top: #ffff solid 2px;
+    border-bottom: #ffff solid 2px; }
 
 #button {
   margin-left: 45%;
   margin-bottom: 100px; }
+
+#content a {
+  color: #ffff;
+  font-size: 3.125rem; }
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black; }
+
+.modal-content {
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  padding: 20px;
+  width: 80%; }
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold; }
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer; }
 
 #intro {
   text-align: center;
@@ -464,7 +508,8 @@ img {
     margin-right: 10px;
     padding: 8px;
     border: 1px solid #949088;
-    border-radius: 15px; }
+    border-radius: 15px;
+    background-color: #ffddd5; }
     #contentQuote button:hover {
       background-color: #949088; }
   #contentQuote .dot-active {
@@ -491,6 +536,14 @@ img {
 .titleReasons {
   font-size: 3.75rem;
   font-weight: bold; }
+  .titleReasons::after {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 0;
+    height: 2%;
+    width: 100px;
+    background-color: black; }
 
 .marginR {
   margin-bottom: 10%;
