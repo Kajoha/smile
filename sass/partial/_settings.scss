@@ -6,13 +6,13 @@
 @font-face {
   font-family: 'Tw Cen MT';
   src: local('Tw Cen MT'),
-      url(TCB_____.TTF) format('Tw Cen MT');
+      url(/typography/TCB_____.TTF) format('Tw Cen MT');
 }
 
 @font-face {
   font-family:'GreatLakesNF';
   src: local('GreatLakesNF'),
-      url(GreatLakesNF.TTF) format('GreatLakesNF');
+      url(/typography/GreatLakesNF.ttf) format('GreatLakesNF');
 }
 
 $primary-font: 'Raleway';

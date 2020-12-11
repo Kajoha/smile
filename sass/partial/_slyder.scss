@@ -53,8 +53,19 @@
   margin-top: 50px;
   margin-left: 68%;
 
+  button {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
   p {
     margin: 0;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    border-top: $white solid 2px;
+    border-bottom: $white solid 2px;
   }
 }
 

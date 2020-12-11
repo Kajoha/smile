@@ -10,6 +10,16 @@
 .titleReasons {
   font-size: 3.75rem;
   font-weight: bold;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 0;
+    height: 2%;
+    width: 100px;
+    background-color: black;
+  }
 }
 
 .marginR {
