@@ -7,7 +7,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
 html {
@@ -367,7 +367,7 @@ img {
   text-decoration: none;
   letter-spacing: 4px;
   border: 2px solid #000000;
-  padding: 20px 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
   background-color: #ffff;
   color: #000000; }
 
@@ -522,6 +522,9 @@ img {
   margin-bottom: 170px;
   display: inline-block; }
 
+#buy {
+  background-color: #f2f4f5; }
+
 .font {
   font-family: "Raleway"; }
 
@@ -602,3 +605,54 @@ img {
   font-size: 2.313rem;
   font-weight: 900;
   text-transform: uppercase; }
+
+.color {
+  background-color: #f2f4f5; }
+
+#nav ul {
+  padding: 0; }
+
+#nav li {
+  font-family: 'Montserrat';
+  list-style: none;
+  margin-bottom: 10px; }
+
+#nav h4 {
+  font-family: "Raleway";
+  text-transform: uppercase;
+  font-weight: bold; }
+
+#nav p {
+  font-family: 'Montserrat';
+  font-size: 1rem; }
+
+#interNav {
+  margin: 110px 0 90px 0; }
+
+#browse {
+  width: 20%; }
+
+#shop {
+  width: 25%; }
+
+#contact {
+  width: 30%; }
+
+#subscribe {
+  width: 25%; }
+
+#low {
+  background-color: #f2f4f5; }
+  #low p {
+    font-family: 'Montserrat';
+    font-size: 1rem; }
+
+#textLow p {
+  margin-top: 35px; }
+
+#social {
+  margin-left: 35%; }
+  #social img {
+    margin: 35px 18px 30px 0;
+    width: auto;
+    height: 25px; }
