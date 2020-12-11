@@ -1,0 +1,103 @@
+.font {
+  font-family: $primary-font;
+}
+
+#five {
+  background-image: url(/img/buy1.jpg);
+  background-position: top;
+  margin: 100px 100px 0 0;
+
+  p {
+    font-family: Tw Cen MT;
+    font-size: 5rem;
+    color: $white;
+    font-weight: bold;
+  }
+}
+
+#interFive {
+  margin: 170px 10px 47px 10px;
+}
+
+.bF {
+  margin: 0 0 5px 0;
+}
+
+.bottomF {
+  margin: 0% 15% 110px 15%;
+}
+
+#six {
+  background-image: url(/img/buy2.jpg);
+  margin-top: 100px;
+}
+
+#interSix {
+  margin: 80px 343px 125px 80px;
+}
+
+.allP {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+}
+
+.uniq {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: $size-font-p;
+  margin-top: 20px;
+}
+
+#seven {
+  background-image: url(/img/buy3.jpg);
+
+  p {
+    font-family: "GreatLakesNF";
+    font-size: 1.875rem;
+    margin: 0;
+  }
+}
+
+.widthBuy {
+  margin-top: 40px;
+  width: 45%;
+}
+
+.interS {
+  margin: 40px 78px 230px 78px;
+}
+
+#eight {
+  background-image: url(/img/buy4.jpg);
+  margin-left: 10%;
+
+  p{
+    font-family: 'Lato', sans-serif;
+    color: $white;
+    margin: 0;
+  }
+}
+
+#interEight {
+  margin: 170px 78px 95px 78px;
+}
+
+.marginB {
+  margin-left: 42%;
+  margin-top: 65px;
+  margin-bottom: 140px;
+}
+
+#oneLow {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#twoLow {
+  font-size: 2.313rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}

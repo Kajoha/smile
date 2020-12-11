@@ -8,6 +8,8 @@
  */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -306,6 +308,14 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: 'Tw Cen MT';
+  src: local("Tw Cen MT"), url(TCB_____.TTF) format("Tw Cen MT"); }
+
+@font-face {
+  font-family: 'GreatLakesNF';
+  src: local("GreatLakesNF"), url(GreatLakesNF.TTF) format("GreatLakesNF"); }
+
 body {
   max-width: 1400px;
   margin: 0;
@@ -343,7 +353,7 @@ img {
   border-radius: 1px;
   padding: 29px 20px 29px 20px;
   text-align: center;
-  color: black;
+  color: #000000;
   font-size: 1.25rem;
   letter-spacing: 6px;
   text-transform: uppercase;
@@ -351,18 +361,33 @@ img {
   text-decoration: none; }
 
 .button {
-  border: #000000;
-  padding: 29px 20px 29px 20px;
-  color: black;
+  font-weight: bold;
   font-size: 1.25rem;
   display: inline-block;
   text-decoration: none;
-  margin-left: 42%;
-  margin-bottom: 140px; }
+  letter-spacing: 4px;
+  border: 2px solid #000000;
+  padding: 20px 20px 20px 20px;
+  background-color: #ffff;
+  color: #000000; }
+
+.display {
+  display: inline-block; }
 
 #slyder {
   font-family: "Raleway";
   background-image: url(/img/cover.jpg); }
+  #slyder button {
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    background-color: #000000; }
+    #slyder button:hover {
+      background-color: #ffff; }
+  #slyder .active {
+    background-color: #ffff; }
 
 .h1slyder {
   margin: 18% 6% 0 42%;
@@ -373,18 +398,17 @@ img {
   font-weight: inherit; }
 
 .pslyder {
-  margin: 0 6% 22% 50%;
+  margin: 0 6% 14% 50%;
   font-size: 4rem;
   color: #ffff;
   text-align: right;
-  font-weight: bold;
-  display: inline-block; }
+  font-weight: bold; }
 
 #one {
   padding-left: 5.17%;
   margin-top: 50px; }
   #one a {
-    background-color: black;
+    background-color: #000000;
     color: #ffff;
     font-size: 1.875rem;
     font-weight: bold; }
@@ -395,6 +419,10 @@ img {
   margin-left: 68%; }
   #two p {
     margin: 0; }
+
+#button {
+  margin-left: 45%;
+  margin-bottom: 100px; }
 
 #intro {
   text-align: center;
@@ -430,7 +458,6 @@ img {
 #contentQuote {
   background-color: #ffddd5; }
   #contentQuote .dot {
-    display: inline-block;
     margin: 33px 0 43px 10%; }
   #contentQuote button {
     float: left;
@@ -457,19 +484,29 @@ img {
 
 #reasons {
   font-family: "Raleway"; }
+  #reasons h3 {
+    font-size: 1.875rem;
+    text-transform: uppercase; }
 
 .titleReasons {
   font-size: 3.75rem;
   font-weight: bold; }
 
 .marginR {
+  margin-bottom: 10%;
   margin-left: 15%;
   margin-right: 15%; }
 
 #sentence {
   background-image: url(/img/sentence.jpg);
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  color: #ffff; }
+  #sentence p {
+    font-family: "Raleway"; }
+  #sentence a {
+    font-size: 1.25rem;
+    color: #ffff; }
 
 .titleCenter {
   margin: 0;
@@ -484,3 +521,84 @@ img {
   margin-top: 60px;
   margin-bottom: 170px;
   display: inline-block; }
+
+.font {
+  font-family: "Raleway"; }
+
+#five {
+  background-image: url(/img/buy1.jpg);
+  background-position: top;
+  margin: 100px 100px 0 0; }
+  #five p {
+    font-family: Tw Cen MT;
+    font-size: 5rem;
+    color: #ffff;
+    font-weight: bold; }
+
+#interFive {
+  margin: 170px 10px 47px 10px; }
+
+.bF {
+  margin: 0 0 5px 0; }
+
+.bottomF {
+  margin: 0% 15% 110px 15%; }
+
+#six {
+  background-image: url(/img/buy2.jpg);
+  margin-top: 100px; }
+
+#interSix {
+  margin: 80px 343px 125px 80px; }
+
+.allP {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0; }
+
+.uniq {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+  margin-top: 20px; }
+
+#seven {
+  background-image: url(/img/buy3.jpg); }
+  #seven p {
+    font-family: "GreatLakesNF";
+    font-size: 1.875rem;
+    margin: 0; }
+
+.widthBuy {
+  margin-top: 40px;
+  width: 45%; }
+
+.interS {
+  margin: 40px 78px 230px 78px; }
+
+#eight {
+  background-image: url(/img/buy4.jpg);
+  margin-left: 10%; }
+  #eight p {
+    font-family: 'Lato', sans-serif;
+    color: #ffff;
+    margin: 0; }
+
+#interEight {
+  margin: 170px 78px 95px 78px; }
+
+.marginB {
+  margin-left: 42%;
+  margin-top: 65px;
+  margin-bottom: 140px; }
+
+#oneLow {
+  font-size: 1.875rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+#twoLow {
+  font-size: 2.313rem;
+  font-weight: 900;
+  text-transform: uppercase; }

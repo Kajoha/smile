@@ -1,8 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+@font-face {
+  font-family: 'Tw Cen MT';
+  src: local('Tw Cen MT'),
+      url(TCB_____.TTF) format('Tw Cen MT');
+}
+
+@font-face {
+  font-family:'GreatLakesNF';
+  src: local('GreatLakesNF'),
+      url(GreatLakesNF.TTF) format('GreatLakesNF');
+}
 
 $primary-font: 'Raleway';
 $size-font-p: 1.25rem;
-$black: black;
+$black: #000000;
 $white: #ffff;
 $grey: #949088;
+
